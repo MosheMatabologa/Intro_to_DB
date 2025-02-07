@@ -1,2 +1,7 @@
-INSERT INTO customers (customer_id, first_name, last_name, email, address)
-VALUES (1, 'Cole', 'Baidoo', 'cbaidoo@sandtech.com', '123 Happiness Ave.');
+-- task_5.sql
+
+-- Connect to the MySQL server and select the database passed as an argument
+-- Usage: mysql -u username -p alx_book_store < task_5.sql
+
+INSERT INTO customer (customer_id, customer_name, email, address)
+VALUES (1, 'Cole Baidoo', 'cbaidoo@sandtech.com', '123 Happiness Ave.');
