@@ -1,3 +1,8 @@
+-- task_4.sql
+
+-- Connect to the MySQL server and select the database passed as an argument
+-- Usage: mysql -u username -p alx_book_store < task_4.sql
+
 SELECT 
     COLUMN_NAME AS 'Field',
     COLUMN_TYPE AS 'Type',
@@ -9,4 +14,4 @@ FROM
     INFORMATION_SCHEMA.COLUMNS
 WHERE 
     TABLE_SCHEMA = 'alx_book_store' 
-    AND TABLE_NAME = 'books';
+    AND TABLE_NAME = 'Books';
